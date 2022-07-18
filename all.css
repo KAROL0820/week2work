@@ -52,6 +52,7 @@ table {
 body{
     font-family: "roboto","Microsoft JhengHei";
 }
+/*字體設定*/
 .italic{
     font-style: italic;
 }
@@ -76,6 +77,38 @@ line-height: 1.5;
 .lihe-175{
     line-height: 1.75;
 }
+/*間距設定*/
+.mt-56{
+    margin-top: 56px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb4{
+    margin-bottom: 4px;     
+}
+.mb-8{
+    margin-bottom: 8px;     
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.pb-24{
+    padding-bottom:24px;
+}
+.pdb-48{
+    padding-bottom: 48px;
+}
+.pdr-24{
+    padding-right: 24px;
+}
+/*Part 1*/
 .wrap{
     width: 1920px;
     margin: 0 auto;
@@ -107,37 +140,8 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-/* Profile*/
-.mt-56{
-    margin-top: 56px;
-}
-.mb-40{
-    margin-bottom: 40px;
-}
-.mb-20{
-    margin-bottom: 20px;
-}
-.mb-24{
-    margin-bottom: 24px;
-}
-.mb4{
-    margin-bottom: 4px;     
-}
-.mb-8{
-    margin-bottom: 8px;     
-}
-.mb-16{
-    margin-bottom: 16px;
-}
-.pb-24{
-    padding-bottom:24px;
-}
-.pdb-48{
-    padding-bottom: 48px;
-}
-.pdr-24{
-    padding-right: 24px;
-}
+/* Part 2*/
+
 .profile{
     text-align: center;
     
@@ -170,7 +174,7 @@ h1{
     background-color: #891818;
     border-radius: 50%;
 }
-/*brand*/
+/*Part 3 */
 .brand{
     display: flex;
     flex-direction: column;
@@ -197,7 +201,7 @@ h1{
     margin-top: 40px;
     padding-bottom: 160px;
 }
-/*work*/
+/*Part 4 */
 .works{
     display: flex;
     flex-direction: column;
@@ -217,6 +221,7 @@ h1{
     display: flex;
     flex-direction: column;
 }
+/*Part 5 */
 .footer{
     background-color: black;
     color: white;
